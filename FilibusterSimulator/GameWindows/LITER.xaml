@@ -1,0 +1,20 @@
+﻿<Window x:Class="DoctorSimulator.GameWindows.LITER"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoctorSimulator.GameWindows"
+        mc:Ignorable="d"
+        Title="LITER" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Chainick" Content="Терапия для чайников-300р" HorizontalAlignment="Left" VerticalAlignment="Top" Width="792" Margin="0,23,0,0" Click="Book_Click" />
+        <Button x:Name="Sred" Content="Терапия для средних знаний-1000р" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top" Width="792"   Click="Book_Click"/>
+        <Button x:Name="vis" Content="Терапия для высокого уровня квалиффикации-100000р" HorizontalAlignment="Left" VerticalAlignment="Top" Width="792" Margin="0,99,0,0"  Click="Book_Click"/>
+        <Button x:Name="BOG" Content="Терапия для богов 100000000 украинских долларов" HorizontalAlignment="Left" Margin="0,148,0,0" VerticalAlignment="Top" Width="792"  Click="Book_Click"/>
+        <Button x:Name="Closewindow" Content="Close" HorizontalAlignment="Left" Margin="272,286,0,0" VerticalAlignment="Top" Width="153" Height="69" Click="Closewindow_Click"/>
+
+
+
+
+    </Grid>
+</Window>
